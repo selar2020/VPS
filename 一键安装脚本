@@ -1,0 +1,7 @@
+centos上使用，除了安装r2ray还要安装 4合1加速。不知这个脚本有什么后门。
+指令：
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh" && chmod +x install.sh && bash install.sh
+
+多用户设置
+执行指令：   cat /proc/sys/kernel/random/uuid  得到如下的代码就是用户id
+0ff12347-7664-65d9-b10a-5b1234050c07
